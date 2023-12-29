@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  .pricing-plans {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+  }
+  
+  .plan {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1em;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .plan.recommended {
+    border: 2px solid #3498db;
+  }
+  
+  .price {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #207dbb;
+  }
+  
+  .customization-options {
+    text-align: center;
+    margin: 2em 0;
+  }
+  
+  label {
+    margin-right: 1em;
+  }
+  
+  select {
+    padding: 0.5em;
+    font-size: 1em;
+  }
+  
